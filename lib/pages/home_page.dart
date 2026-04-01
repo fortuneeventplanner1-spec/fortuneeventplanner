@@ -286,8 +286,10 @@ class _HomePageState extends State<HomePage> {
                 autoPlayAnimationDuration: Duration(milliseconds: AppTheme.transitionSpeed == 'fast' ? 400 : (AppTheme.transitionSpeed == 'slow' ? 1200 : 800)), 
               ),
               items: [
-                'https://picsum.photos/id/1043/2070/1380', // 👈 CHANGE IMAGE URL 1
-                'https://picsum.photos/id/1062/2070/1380', // 👈 CHANGE IMAGE URL 2
+                'https://cdn.jsdelivr.net/gh/satishrangile43/gurudairy@main/PAPA/1 (1).jpg',
+                'https://cdn.jsdelivr.net/gh/satishrangile43/gurudairy@main/PAPA/1 (2).jpg',
+                'https://cdn.jsdelivr.net/gh/satishrangile43/gurudairy@main/PAPA/1 (3).jpg',
+                'https://cdn.jsdelivr.net/gh/satishrangile43/gurudairy@main/PAPA/1 (4).jpg',
               ].map((img) => Image.network(img, fit: BoxFit.cover, width: double.infinity)).toList(),
             ),
           ),
